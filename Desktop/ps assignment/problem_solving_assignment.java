@@ -5,7 +5,7 @@ import java.util.*;
 class problem_solving_assignment {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no. of cities");
+        System.out.println("Enter the no. of cities");
         int cities = sc.nextInt();
         System.out.println("Enter routes of buses and cost");
         int buses[][] = new int[cities][3];
